@@ -21,18 +21,18 @@
   text-align: left;
 }
 
-.quote-date table {
+.quote-date .quote-date-table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.quote-date table th {
+.quote-date .quote-date-table th {
   width: 50%;
   font-weight: normal;
 }
 
-.quote-date table th,
-.quote-date table td {
+.quote-date .quote-date-table th,
+.quote-date .quote-date-table td {
   padding: 4px 0;
 }
 
@@ -54,6 +54,10 @@
 
 .body-quotes {
   position: relative;
+}
+
+.body-quotes .body-quotes-product-wrapper {
+  overflow-x: auto;
 }
 
 .body-quotes .body-quotes-product {
@@ -83,10 +87,6 @@
   text-align: left;
   padding: 8px;
   border-collapse: collapse;
-}
-
-.body-quotes .body-quotes-product-groub h3 {
-  margin-bottom: 10px;
 }
 
 .body-quotes .body-quotes-product-groub .price,
@@ -235,10 +235,128 @@
   transition: 0.4s all;
   background: #789fdb;
   color: white;
+  margin-bottom: 40px;
 }
 
 .quotes-comment button:hover {
   background: #4378c9;
+}
+
+@media screen and (max-width: 768px) {
+  p,
+  input,
+  textarea,
+  th,
+  td {
+    font-size: 15px !important;
+  }
+  .logo-profile-img {
+    width: 50px !important;
+  }
+  .profile-info h1 {
+    font-size: 23px !important;
+  }
+  .profile-info p {
+    font-size: 15px;
+  }
+  .notes-quotes-text {
+    width: 50% !important;
+  }
+  .notes-quotes-text p {
+    font-size: 14px !important;
+  }
+  .signiture-quotes-content {
+    margin-top: 50px !important;
+  }
+  .signiture-quotes-content p {
+    font-size: 15px !important;
+  }
+  textarea {
+    height: 110px !important;
+  }
+  button {
+    font-size: 15px !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  input,
+  textarea,
+  th,
+  td {
+    font-size: 10px !important;
+    padding: 4px !important;
+  }
+  h3 {
+    font-size: 14px !important;
+  }
+  .header-quotes {
+    margin-top: -25px !important;
+  }
+  .logo-profile-img {
+    width: 40px !important;
+  }
+  .profile-info {
+    margin-left: 10px !important;
+  }
+  .profile-info h1 {
+    font-size: 14px !important;
+  }
+  .profile-info p {
+    font-size: 10px !important;
+  }
+  .quote-date {
+    margin-top: -30px !important;
+  }
+  .profile-address p {
+    font-size: 10px !important;
+  }
+  .qty {
+    display: flex;
+    align-items: center;
+    width: 40px !important;
+    padding: 4px !important;
+  }
+  .qty input {
+    margin-right: 6px;
+  }
+  .notes-quotes-text {
+    margin-top: 20px !important;
+  }
+  .notes-quotes-text p {
+    font-size: 10px !important;
+  }
+  .signiture-quotes-content {
+    margin-top: 20px !important;
+    display: flex;
+    align-items: center;
+  }
+  .signiture-quotes-content p {
+    font-size: 10px !important;
+  }
+  .signiture-quotes-content input {
+    width: 120px !important;
+  }
+  .term-and-condition-quotes p,
+  .term-and-condition-quotes li {
+    font-size: 10px !important;
+  }
+  .quotes-comment h3 {
+    font-size: 13px !important;
+  }
+  .quotes-comment p {
+    font-size: 10px !important;
+  }
+  textarea {
+    height: 60px !important;
+    font-size: 10px !important;
+  }
+  button {
+    font-size: 10px !important;
+    padding: 4px 10px !important;
+    margin-bottom: 10px !important;
+  }
 }
 
 html {
