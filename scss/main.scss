@@ -1,0 +1,25 @@
+@import "config";
+@import "home";
+
+html {
+  overflow-y: scroll;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+p {
+  font-size: 17px;
+}
+
+body {
+  font-family: arial, sans-serif;
+}

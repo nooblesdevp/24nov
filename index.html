@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Quotes Template</title>
+  </head>
+  <body>
+    <header class="container">
+      <!-- logo company -->
+      <div class="logo-profile">
+        <img
+          class="logo-profile-img"
+          src="https://via.placeholder.com/150"
+          alt="logo"
+        />
+        <div class="profile-info">
+          <h1>ABC Company</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </header>
+    <!-- quote date -->
+    <div class="container quote-date">
+      <table>
+        <tr>
+          <th>Quotation :</th>
+          <td>Name</td>
+        </tr>
+        <tr>
+          <th>Valid Until :</th>
+          <td>21/11/2020</td>
+        </tr>
+        <tr>
+          <th>Date :</th>
+          <td>20/11/2020</td>
+        </tr>
+      </table>
+    </div>
+    <!-- company profile and cs -->
+    <div class="container profile-address">
+      <div class="profile-address-company">
+        <p>Company Name</p>
+        <p>Address</p>
+        <p>Phone Number</p>
+        <p>Email</p>
+      </div>
+      <div class="profile-address-Costumer">
+        <p>Customers Name</p>
+        <p>Address</p>
+        <p>Phone Number</p>
+        <p>Email</p>
+      </div>
+    </div>
+    <!-- body quotes -->
+    <div class="container body-quotes">
+      <table class="body-quotes-product">
+        <tr>
+          <th class="table-head qty">Qty</th>
+          <th class="table-head part">Part Number</th>
+          <th class="table-head desc">Description</th>
+          <th class="table-head price">Unit Price</th>
+          <th class="table-head amount">Amount</th>
+        </tr>
+        <tr>
+          <td class="qty"><input type="checkbox" name="qty" id="" /> 1</td>
+          <td class="part">Train - MS</td>
+          <td class="desc">Half day training - Microsoft Office</td>
+          <td class="price">$ 500</td>
+          <td class="amount">$ 500</td>
+        </tr>
+      </table>
+      <!-- product grub -->
+      <table class="body-quotes-product-groub">
+        <tr class="title">
+          <h3>Training Season 1</h3>
+        </tr>
+        <tr>
+          <th class="table-head qty">Qty</th>
+          <th class="table-head part">Part Number</th>
+          <th class="table-head desc">Description</th>
+          <th class="table-head price">Unit Price</th>
+          <th class="table-head amount">Amount</th>
+        </tr>
+        <tr>
+          <td class="qty">
+            <input type="checkbox" name="qty" id="" />
+            1
+          </td>
+          <td class="part">Train - MS</td>
+          <td class="desc">Half day training - Microsoft Office</td>
+          <td class="price">$ 500</td>
+          <td class="amount">$ 500</td>
+        </tr>
+        <tr>
+          <td class="qty"><input type="checkbox" name="qty" id="" /> 1</td>
+          <td class="part">Train - MS</td>
+          <td class="desc">Half day training - Microsoft Office</td>
+          <td class="price">$ 500</td>
+          <td class="amount">$ 500</td>
+        </tr>
+        <tr>
+          <td class="qty"><input type="checkbox" name="qty" id="" /> 1</td>
+          <td class="part">Train - MS</td>
+          <td class="desc">Half day training - Microsoft Office</td>
+          <td class="price">$ 500</td>
+          <td class="amount">$ 500</td>
+        </tr>
+        <tr>
+          <td class="qty"><input type="checkbox" name="qty" id="" /> 2</td>
+          <td class="part">Train - MS</td>
+          <td class="desc">Half day training - Microsoft Office</td>
+          <td class="price">$ 500</td>
+          <td class="amount">$ 500</td>
+        </tr>
+      </table>
+      <!-- grouo subtotal -->
+      <div class="body-quotes-total ">
+        <table  >
+          <div class="body-quotes-group-subtotal">
+            <tr>
+              <th>Group Subtotal</th>
+              <td class="amount"><strong>$2000</strong></td>
+            </tr>
+          </div>
+        </table>
+      </div>
+        <!-- subtotal -->
+        <div class="body-quotes-total">
+          <table class="body-quotes-total-order">
+            <tr>
+              <th>Subtotal</th>
+              <td class="amount">$2500</td>
+            </tr>
+            <tr>
+              <th>Tax UTS 10%</th>
+              <td class="amount">$200</td>
+            </tr>
+            <tr>
+              <th>Total Amount</th>
+              <td class="amount">
+                <strong>$2700</strong>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- notes-quotes -->
+    <div class="container notes-quotes">
+      <div class="notes-quotes-text">
+        <p>
+          ie - $10 off per user if paying by Des 25th / Dev estimate to be confirmed upon receipt of flow chart from customer
+        </p>
+
+      </div>
+    </div>
+    <!-- signature -->
+    <div class="container signature-quotes">
+      <div class="signiture-quotes-content">
+        <p>Signatures of Auhtorized Person :</p>
+        <input type="text" name="" id="">
+      </div>
+    </div>
+    <!-- Term & Conditions -->
+    <div class="container term-and-condition-quotes">
+      <div class="term-and-condition-title">
+        <p>Term and Conditions</p>
+      </div>
+      <ul>
+        <li>Condition1</li>
+        <li>Condition2</li>
+        <li>Condition3</li>
+        <li>Condition4</li>
+        <li>Condition5</li>
+      </ul>
+    </div>
+  <!-- comment & QnA -->
+    <div class="container quotes-comment">
+      <h3>Comment or Quostions ?</h3>
+      <p>
+        If you any comment or question about this quote, please feel free to
+        enter it here
+      </p>
+      <textarea name="comment" id=""></textarea>
+      <button type="submit">Submit Question or Comment</button>
+    </div>
+  </body>
+</html>

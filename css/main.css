@@ -1,0 +1,266 @@
+.logo-profile {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.logo-profile .logo-profile-img {
+  width: 60px;
+}
+
+.logo-profile .profile-info {
+  margin-left: 20px;
+}
+
+.logo-profile .profile-info h1 {
+  font-size: 25px;
+}
+
+.quote-date {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.quote-date table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.quote-date table th {
+  width: 50%;
+  font-weight: normal;
+}
+
+.quote-date table th,
+.quote-date table td {
+  padding: 4px 0;
+}
+
+.profile-address {
+  display: flex;
+}
+
+.profile-address p {
+  font-weight: normal;
+}
+
+.profile-address .profile-address-company {
+  flex: 1;
+}
+
+.profile-address .profile-address-Costumer {
+  flex: 1;
+}
+
+.body-quotes {
+  position: relative;
+}
+
+.body-quotes .body-quotes-product {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.body-quotes .body-quotes-product td,
+.body-quotes .body-quotes-product th {
+  text-align: left;
+  padding: 8px;
+  border-collapse: collapse;
+}
+
+.body-quotes .body-quotes-product .price,
+.body-quotes .body-quotes-product .amount {
+  text-align: center;
+}
+
+.body-quotes .body-quotes-product-groub {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #dddddd59;
+  border-radius: 4px;
+}
+
+.body-quotes .body-quotes-product-groub td,
+.body-quotes .body-quotes-product-groub th {
+  text-align: left;
+  padding: 8px;
+  border-collapse: collapse;
+}
+
+.body-quotes .body-quotes-product-groub h3 {
+  margin-bottom: 10px;
+}
+
+.body-quotes .body-quotes-product-groub .price,
+.body-quotes .body-quotes-product-groub .amount {
+  text-align: center;
+}
+
+.body-quotes .qty {
+  width: 20px;
+  text-align: center;
+}
+
+.body-quotes .price,
+.body-quotes .amount {
+  text-align: center;
+}
+
+.body-quotes tr:nth-child(even) {
+  background-color: #dddddd59;
+}
+
+.body-quotes .body-quotes-total {
+  height: auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.body-quotes .body-quotes-total table {
+  width: 40%;
+  position: absolute;
+  right: 0;
+}
+
+.body-quotes .body-quotes-total table td,
+.body-quotes .body-quotes-total table th {
+  text-align: left;
+  padding: 8px;
+  border-collapse: collapse;
+}
+
+.body-quotes .body-quotes-total table tr:nth-child(even) {
+  background-color: #dddddd59;
+}
+
+.body-quotes .body-quotes-total table .amount {
+  text-align: center;
+}
+
+.body-quotes .body-quotes-total table .body-quotes-group-subtotal {
+  margin-bottom: 20px;
+}
+
+.body-quotes .body-quotes-total .body-quotes-total-order {
+  border: 1px solid #dddddd59;
+}
+
+.notes-quotes .notes-quotes-text {
+  width: 40%;
+  border-radius: 4px;
+  border: 2px dashed #dddddd59;
+  padding: 8px;
+}
+
+.notes-quotes .notes-quotes-text p {
+  font-size: 15px;
+}
+
+.signature-quotes .signiture-quotes-content {
+  margin-top: 80px;
+  display: flex;
+}
+
+.signature-quotes .signiture-quotes-content p {
+  font-size: 16px;
+}
+
+.signature-quotes .signiture-quotes-content input {
+  border: none;
+  border-bottom: 1px solid #dddddd59;
+  outline: none;
+  margin-left: 20px;
+  width: 250px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.term-and-condition-quotes {
+  border: 2px dashed #dddddd59;
+  border-radius: 4px;
+}
+
+.term-and-condition-quotes .term-and-condition-title {
+  background: #dddddd59;
+  padding: 8px;
+}
+
+.term-and-condition-quotes .term-and-condition-title p {
+  font-size: 16px;
+}
+
+.term-and-condition-quotes ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.term-and-condition-quotes ul li {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.quotes-comment {
+  padding-top: 10px;
+}
+
+.quotes-comment h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.quotes-comment p {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.quotes-comment textarea {
+  resize: vertical;
+  width: 100%;
+  height: 130px;
+  border: 1px solid #84868a;
+  outline: none;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+}
+
+.quotes-comment button {
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 19px;
+  margin-top: 10px;
+  transition: 0.4s all;
+  background: #789fdb;
+  color: white;
+}
+
+.quotes-comment button:hover {
+  background: #4378c9;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+p {
+  font-size: 17px;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
