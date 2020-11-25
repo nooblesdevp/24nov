@@ -1,0 +1,129 @@
+//media md 768px
+@media screen and (max-width: 768px) {
+  p,
+  input,
+  textarea,
+  th,
+  td {
+    font-size: 15px !important;
+  }
+
+  .logo-profile-img {
+    width: 50px !important;
+  }
+  .profile-info {
+    h1 {
+      font-size: 23px !important;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .notes-quotes-text {
+    width: 50% !important;
+    p {
+      font-size: 14px !important;
+    }
+  }
+  .signiture-quotes-content {
+    margin-top: 50px !important;
+    p {
+      font-size: 15px !important;
+    }
+  }
+  textarea {
+    height: 110px !important;
+  }
+  button {
+    font-size: 15px !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+//media md 425px
+@media screen and (max-width: 425px) {
+  input,
+  textarea,
+  th,
+  td {
+    font-size: 10px !important;
+    padding: 4px !important;
+  }
+  h3 {
+    font-size: 14px !important;
+  }
+
+  .header-quotes {
+    margin-top: -25px !important;
+  }
+  .logo-profile-img {
+    width: 40px !important;
+  }
+  .profile-info {
+    margin-left: 10px !important;
+    h1 {
+      font-size: 14px !important;
+    }
+    p {
+      font-size: 10px !important;
+    }
+  }
+  .quote-date {
+    margin-top: -30px !important;
+  }
+  .profile-address {
+    p {
+      font-size: 10px !important;
+    }
+  }
+
+  .qty {
+    display: flex;
+    align-items: center;
+    width: 40px !important;
+    padding: 4px !important;
+    input {
+      margin-right: 6px;
+    }
+  }
+  .notes-quotes-text {
+    margin-top: 20px !important;
+    p {
+      font-size: 10px !important;
+    }
+  }
+  .signiture-quotes-content {
+    margin-top: 20px !important;
+    display: flex;
+    align-items: center;
+    p {
+      font-size: 10px !important;
+    }
+    input {
+      width: 120px !important;
+    }
+  }
+  .term-and-condition-quotes {
+    p,
+    li {
+      font-size: 10px !important;
+    }
+  }
+  .quotes-comment {
+    h3 {
+      font-size: 13px !important;
+    }
+    p {
+      font-size: 10px !important;
+    }
+  }
+  textarea {
+    height: 60px !important;
+    font-size: 10px !important;
+  }
+  button {
+    font-size: 10px !important;
+    padding: 4px 10px !important;
+    margin-bottom: 10px !important;
+  }
+}
